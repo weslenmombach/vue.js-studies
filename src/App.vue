@@ -1,5 +1,5 @@
 <script setup>
-//import Ex01 from './components/ex01Interpolacao.vue'
+//import Ex01 from './components/Ex01Interpolacao.vue'
 //import Ex02 from './components/Ex02Condicional.vue'
 //import Ex03 from './components/Ex03Laco.vue'
 //import Ex04 from './components/Ex04HTML.vue';
