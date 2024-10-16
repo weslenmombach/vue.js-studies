@@ -16,9 +16,10 @@
 //import Ex15 from './components/Ex15Watch.vue'
 //import Ex16 from './components/Ex16Manipulacao.vue'
 //import Ex17 from './components/Ex17ManObjetos.vue'
-import Ex18 from './components/Ex18cifraRef.vue'
+//import Ex18 from './components/Ex18cifraRef.vue'
+import Vue3 from './components/Vue3Studies.vue'
 </script>
 
 <template>
-  <Ex18 />
+  <Vue3 />
 </template>
