@@ -4,6 +4,8 @@ import { ref } from 'vue'
 const inputNome = ref('')
 const formulario = ref(null)
 const resultado = ref('')
+const texto1 = ref('Vai tomando')
+const texto2 = ref('Esquizofrenia')
 
 function cadastrar() {
   let nome = inputNome.value
@@ -31,7 +33,27 @@ function cadastrar() {
   </form>
   <hr />
   {{ resultado }}
-  <!--LEMBRETE DE SEMPRE: Não usar this. em Vue3, apenas o .value-->
+
+<!--LEMBRETE DE SEMPRE: Não usar this. em Vue3, apenas o .value-->
+>  <hr>
+  <h1>AULA SOBRE DOM</h1>
+  <p>DOM - Interface que mostra como os elementos são lidos pelos browsers. Os documentos ao serem lidos, tem a criação de um objeto, o DOM. Define formas de acesso e outras. Pode ser manipulado de forma dinâmica</p>
+  <p>VIRTUAL DOM - Conceito. Representação virtual do DOM, mantida em memória JavaScript e sincronizada com DOM real, feito por framework, tipo Vue.js.</p>
+  <p>Caso o Virtual DOM perceba que não teve alteração real, ele nem faz o sincronismo. Calcula diferenças e faz atualiação no DOM real apenas daquilo que teve impacto.</p>
+  <br>
+  <h1>
+    COMPORTAMENTOS INESPERADOS
+  </h1>
+  <p>Não precisa se preocupar tanto em relação a isso, pois basicamente o Vue.js faz toda essa manipulação de DOM e Virtual DOM pra nós. Com isso, evita-se problemas referentes a manipulação do DOM, mas não é impossível de ocorrer. <br>
+    * Estudar mais</p>
+  <hr>
+  <div>
+    <h1>{{ texto1 }}</h1>
+    <p>{{ texto2 }}</p>
+    
+  </div>
+  <p>Aqui foi realizado conforme a aula porém não apresentou problemas, não sendo necessário o $mount <br>
+  Basicamente é usado para recuperar uma isntância do vue e passar o valor dela. Quando necessário "montarmos" algo, podemos usar o createApp().mount()</p>
 </template>
 
 <style></style>
