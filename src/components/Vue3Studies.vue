@@ -19,6 +19,14 @@
   </p>
   <p>Instalação de NPM - Gerenciador de pacotes do Node</p>
   <p>Instalação de Homebrew se for necessário</p>
+  <p>Instalação do vue cli pelo npm e iniciando projeto</p>
+  <p>Rede local e network, utilizadas para acessar no localhost ou via outro aparelho</p>
+  <p>Criação de projeto vue com o comando - vue create nomeDoProjeto e indicação de opções de configurações</p>
+  <p>Reserva de portas para aplicações rodando</p>
+
+  <hr>
+  <h2>DEFINIÇÃO DE SAÍDA DE PORTA</h2>
+  <p>Basicamente, usamos do comando npm run serve -- --port 3001</p>
 </template>
 
 <style>
