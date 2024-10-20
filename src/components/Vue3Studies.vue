@@ -27,6 +27,25 @@
   <hr>
   <h2>DEFINIÇÃO DE SAÍDA DE PORTA</h2>
   <p>Basicamente, usamos do comando npm run serve -- --port 3001</p>
+
+  <hr>
+
+  <h1>Utilização de Vue UI</h1>
+  <p>
+    Utilizamos no terminal o comando vue ui e gerenciamos os projetos via o Vue UI, controlando na interface gráfica simplificando o que seria na linha de comando
+  </p>
+  <h2>Aula sobre:</h2>
+  <ul>
+    <li>Criação de projetos</li>
+    <li>Importação de projetos</li>
+    <li>Gerência de projetos e acessos</li>
+    <li>Gerenciamento de plugins e dependências do projeto</li>
+    <li>Dependências principais e dependências de desenvolvimento</li>
+    <li>Configurações como Vue CLI e ESLint</li>
+    <li>Tarefas, serve, build de produção e estatísticas do tamanho do projeto</li>
+  </ul>
+  <br>
+  <p>Basicamente sobre as dependências, temos a questão de que o ambiente de desenvolvimento será mais pesado e o de execução não, por conta das dependências</p>
 </template>
 
 <style>
