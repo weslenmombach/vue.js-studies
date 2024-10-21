@@ -46,6 +46,7 @@
   </ul>
   <br>
   <p>Basicamente sobre as dependências, temos a questão de que o ambiente de desenvolvimento será mais pesado e o de execução não, por conta das dependências</p>
+  
 </template>
 
 <style>

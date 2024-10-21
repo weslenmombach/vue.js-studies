@@ -12,6 +12,8 @@
     "serve": "vue-cli-service serve"
   },
   "dependencies": {
+    "@babel/core": "^7.25.8",
+    "@babel/preset-env": "^7.25.8",
     "vue": "^3.4.29"
   },
   "devDependencies": {

@@ -1,4 +1,4 @@
-# projeto-vue-ui
+# projeto-vue-padrao
 
 ## Project setup
 ```
