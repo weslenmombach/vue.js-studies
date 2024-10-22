@@ -75,7 +75,27 @@
   <p>Criaçào de repositório e linkagem de repositório central e no bitbucket</p>
   <p>Utilizamos de git remote add respoitoryBitbucket "LINK DO REPOSITÓRIO"</p>
   <p>
-    Utilizamos o set-url pra alterar um repositório remoto usando git remote set-url respoitoryBitbucket "LINK DO REPOSITÓRIO"
+    Utilizamos o set-url pra alterar um repositório remoto usando git remote set-url
+    respoitoryBitbucket "LINK DO REPOSITÓRIO"
+  </p>
+  <hr />
+  <h1>GIT/BITBUCKET - Comandos e outros</h1>
+  <p>Podemos verificar as alterações pelo git no VSCode porém é preferível pela linha de comando</p>
+  <p>Temos o diretório e o staging area (área de preparação)</p>
+  <p>git status mostra o que foi feito antes do commit</p>
+  <p>
+    O git add traz o que foi alterado para o staging area, normalmente comitamos tudo usando "git
+    add ."
+  </p>
+  <p>
+    Podemos retornar a algo ou não comitar, ou retirar do stagin area basicamente usando o git reset
+    /NomeDoArquivo e depois comitamos
+  </p>
+  <p>git log mostra o histórico de commits, com autores, e-mail e tudo mais</p>
+  <p>
+    Importante quando formos fazer um push, verificar em qual branch estamos (remificação),
+    especialmente úteis pra correção de erros sem afetar o projeto principal e depois realizamos um
+    merge
   </p>
 </template>
 
