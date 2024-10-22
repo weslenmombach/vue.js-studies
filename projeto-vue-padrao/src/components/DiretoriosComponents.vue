@@ -97,6 +97,11 @@
     especialmente úteis pra correção de erros sem afetar o projeto principal e depois realizamos um
     merge
   </p>
+  <p>
+    Referente ao bitbucket, verificar sempre se ocorreu o push para o local do projeto correto e
+    realizar via git remote -v as verificações quando necessário. Com isso, direciono ou pro github
+    ou pro bitbucke.
+  </p>
 </template>
 
 <style></style>
