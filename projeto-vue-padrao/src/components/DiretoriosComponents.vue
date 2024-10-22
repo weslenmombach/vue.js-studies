@@ -100,8 +100,9 @@
   <p>
     Referente ao bitbucket, verificar sempre se ocorreu o push para o local do projeto correto e
     realizar via git remote -v as verificações quando necessário. Com isso, direciono ou pro github
-    ou pro bitbucke.
+    ou pro bitbucket.
   </p>
+  <p>Para renomear o nome do repositório, utilizo de git remote rename nomeAntigo nomeNovo</p>
 </template>
 
 <style></style>
