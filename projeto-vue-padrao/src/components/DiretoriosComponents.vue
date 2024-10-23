@@ -119,7 +119,10 @@
     front-end
   </p>
   <p>Após isso, realizamos o server.js com chamadas pro express</p>
-  <p>Agora, a aplicação tem que responder a requisição feita para o servidor web por meio de comando/rota get</p>
+  <p>
+    Agora, a aplicação tem que responder a requisição feita para o servidor web por meio de
+    comando/rota get.
+  </p>
 </template>
 
 <style></style>
