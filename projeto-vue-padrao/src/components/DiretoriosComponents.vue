@@ -103,6 +103,23 @@
     ou pro bitbucket.
   </p>
   <p>Para renomear o nome do repositório, utilizo de git remote rename nomeAntigo nomeNovo</p>
+  <hr />
+  <h1>CLONAGEM DE REPOSITÓRIO</h1>
+  <p>
+    Basicamente excluímos o projeto da IDE porém como salvamos ele em bitcbucket, podemos clicar na
+    opção clone via HTTPS
+  </p>
+  <p>Copiamos o comando referente a git clone e colamos direto no terminal da IDE</p>
+  <hr />
+  <h1>EXPRESS</h1>
+  <h2>Framework de back-end para node e criação de aplicação back-end</h2>
+  <p>Pra instalar, utilizamos o npm install express no terminal</p>
+  <p>
+    Basicamente, agora criamos um servidor web com Node e Express e ele serve nossa aplicação
+    front-end
+  </p>
+  <p>Após isso, realizamos o server.js com chamadas pro express</p>
+  <p>Agora, a aplicação tem que responder a requisição feita para o servidor web por meio de comando/rota get</p>
 </template>
 
 <style></style>
