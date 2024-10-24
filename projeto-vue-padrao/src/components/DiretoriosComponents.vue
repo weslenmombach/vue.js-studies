@@ -123,6 +123,17 @@
     Agora, a aplicação tem que responder a requisição feita para o servidor web por meio de
     comando/rota get.
   </p>
+  <p>
+    Agora vamos gerar o build e distribuir a aplicação, servindo a aplicação de produção e
+    devolvendo aquilo que foi requisitado, utilizando o npm run build criando o diretório dist com
+    os serviços estáticos pra quem fizer a requisição do front-end
+  </p>
+  <p>Depois, utilizamos o node server.js pra iniciar</p>
+  <p>O que realizamos também é</p>
+  <p>
+    Também posso configurar o comando via o package.json e simplificar meus próprios comandos usando
+    npm ou npm run
+  </p>
 </template>
 
 <style></style>
